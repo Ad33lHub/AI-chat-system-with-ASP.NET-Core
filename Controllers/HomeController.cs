@@ -1,0 +1,41 @@
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using VerixSoftMvc.Data;
+using VerixSoftMvc.Models.ViewModels;
+
+namespace VerixSoftMvc.Controllers
+{
+    public class HomeController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public HomeController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var viewModel = new HomeViewModel
+            {
+                Services = await _context.Services.ToListAsync(),
+                Stats = await _context.Stats.ToListAsync(),
+                TechStacks = await _context.TechStacks.ToListAsync(),
+                Benefits = await _context.Benefits.ToListAsync()
+            };
+
+            return View(viewModel);
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View();
+        }
+    }
+}

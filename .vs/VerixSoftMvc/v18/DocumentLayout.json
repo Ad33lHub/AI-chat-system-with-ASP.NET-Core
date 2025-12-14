@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|c:\\users\\adeel\\downloads\\verixsoft-master\\verixsoftmvc\\verixsoftmvc\\design_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|solutionrelative:verixsoftmvc\\design_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|c:\\users\\adeel\\downloads\\verixsoft-master\\verixsoftmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|c:\\users\\adeel\\downloads\\verixsoft-master\\verixsoftmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|c:\\users\\adeel\\downloads\\verixsoft-master\\verixsoftmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|c:\\users\\adeel\\downloads\\verixsoft-master\\verixsoftmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|c:\\users\\adeel\\downloads\\verixsoft-master\\verixsoftmvc\\verixsoftmvc\\setup_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|solutionrelative:verixsoftmvc\\setup_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|c:\\users\\adeel\\downloads\\verixsoft-master\\verixsoftmvc\\verixsoftmvc\\color_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|solutionrelative:verixsoftmvc\\color_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|c:\\users\\adeel\\downloads\\verixsoft-master\\verixsoftmvc\\verixsoftmvc\\redesign_summary.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|solutionrelative:verixsoftmvc\\redesign_summary.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|c:\\users\\adeel\\downloads\\verixsoft-master\\verixsoftmvc\\verixsoftmvc\\visual_overview.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|solutionrelative:verixsoftmvc\\visual_overview.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|c:\\users\\adeel\\downloads\\verixsoft-master\\verixsoftmvc\\verixsoftmvc\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|solutionrelative:verixsoftmvc\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|c:\\users\\adeel\\downloads\\verixsoft-master\\verixsoftmvc\\verixsoftmvc\\quick_reference.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|solutionrelative:verixsoftmvc\\quick_reference.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|c:\\users\\adeel\\downloads\\verixsoft-master\\verixsoftmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2D6E75-D2EA-E5B0-96BD-3382F54E848E}|VerixSoftMvc.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T11:06:39.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DESIGN_GUIDE.md",
+              "DocumentMoniker": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\DESIGN_GUIDE.md",
+              "RelativeDocumentMoniker": "VerixSoftMvc\\DESIGN_GUIDE.md",
+              "ToolTip": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\DESIGN_GUIDE.md",
+              "RelativeToolTip": "VerixSoftMvc\\DESIGN_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-14T10:57:25.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\README.md",
+              "RelativeDocumentMoniker": "VerixSoftMvc\\README.md",
+              "ToolTip": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\README.md",
+              "RelativeToolTip": "VerixSoftMvc\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-14T10:59:42.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAGEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T10:56:01.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QUICK_REFERENCE.md",
+              "DocumentMoniker": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\QUICK_REFERENCE.md",
+              "RelativeDocumentMoniker": "VerixSoftMvc\\QUICK_REFERENCE.md",
+              "ToolTip": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\QUICK_REFERENCE.md",
+              "RelativeToolTip": "VerixSoftMvc\\QUICK_REFERENCE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-14T11:00:05.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAM0AAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T10:55:36.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VISUAL_OVERVIEW.md",
+              "DocumentMoniker": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\VISUAL_OVERVIEW.md",
+              "RelativeDocumentMoniker": "VerixSoftMvc\\VISUAL_OVERVIEW.md",
+              "ToolTip": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\VISUAL_OVERVIEW.md",
+              "RelativeToolTip": "VerixSoftMvc\\VISUAL_OVERVIEW.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-14T10:59:15.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "REDESIGN_SUMMARY.md",
+              "DocumentMoniker": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\REDESIGN_SUMMARY.md",
+              "RelativeDocumentMoniker": "VerixSoftMvc\\REDESIGN_SUMMARY.md",
+              "ToolTip": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\REDESIGN_SUMMARY.md",
+              "RelativeToolTip": "VerixSoftMvc\\REDESIGN_SUMMARY.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-14T10:58:41.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "COLOR_GUIDE.md",
+              "DocumentMoniker": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\COLOR_GUIDE.md",
+              "RelativeDocumentMoniker": "VerixSoftMvc\\COLOR_GUIDE.md",
+              "ToolTip": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\COLOR_GUIDE.md",
+              "RelativeToolTip": "VerixSoftMvc\\COLOR_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-14T10:58:15.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SETUP_GUIDE.md",
+              "DocumentMoniker": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\SETUP_GUIDE.md",
+              "RelativeDocumentMoniker": "VerixSoftMvc\\SETUP_GUIDE.md",
+              "ToolTip": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\VerixSoftMvc\\SETUP_GUIDE.md",
+              "RelativeToolTip": "VerixSoftMvc\\SETUP_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-14T10:57:46.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFQBAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T10:54:56.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Adeel\\Downloads\\verixsoft-master\\VerixSoftMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAI0AAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T10:54:20.076Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

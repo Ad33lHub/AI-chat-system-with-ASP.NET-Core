@@ -1,0 +1,99 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<!-- Error Hero Section -->
+<section class="min-h-screen flex items-center justify-center bg-gradient-to-b from-muted/50 to-background pt-24">
+    <div class="container">
+        <div class="max-w-2xl mx-auto text-center">
+            
+            <!-- Error Icon -->
+            <div class="mb-8">
+                <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-destructive/10 mb-4">
+                    <i data-lucide="alert-circle" class="w-10 h-10 text-destructive"></i>
+                </div>
+            </div>
+
+            <!-- Error Title -->
+            <h1 class="text-5xl md:text-6xl font-bold mb-4">
+                <span class="gradient-text">Oops!</span>
+            </h1>
+
+            <!-- Error Message -->
+            <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-destructive">
+                An Error Occurred
+            </h2>
+
+            <p class="text-lg text-muted-foreground mb-8 leading-relaxed">
+                We're sorry, but something went wrong while processing your request. 
+                Our team has been notified and we're working to fix this issue.
+            </p>
+
+            <!-- Request ID (if available) -->
+            @if (Model.ShowRequestId)
+            {
+                <div class="bg-secondary/50 border border-border rounded-lg p-6 mb-8 text-left">
+                    <p class="text-sm font-semibold mb-2">Request ID:</p>
+                    <code class="text-xs bg-muted p-3 rounded block overflow-auto text-foreground break-all">
+                        @Model.RequestId
+                    </code>
+                    <p class="text-xs text-muted-foreground mt-2">Please save this ID for reference when contacting support.</p>
+                </div>
+            }
+
+            <!-- Development Info -->
+            @if (Model.ShowRequestId)
+            {
+                <div class="bg-warning/10 border border-warning/20 rounded-lg p-6 mb-8 text-left">
+                    <h3 class="font-semibold mb-3 flex items-center gap-2 text-warning">
+                        <i data-lucide="info" class="w-5 h-5"></i>
+                        Development Information
+                    </h3>
+                    <p class="text-sm text-muted-foreground mb-3">
+                        For more detailed information about this error, you can enable the Development environment by setting the 
+                        <code class="bg-muted px-2 py-1 rounded text-xs">ASPNETCORE_ENVIRONMENT</code> 
+                        environment variable to <code class="bg-muted px-2 py-1 rounded text-xs">Development</code>.
+                    </p>
+                    <p class="text-xs text-muted-foreground font-semibold">
+                        ⚠️ Note: The Development environment should never be enabled for deployed applications as it may expose sensitive information.
+                    </p>
+                </div>
+            }
+
+            <!-- Action Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/" class="btn btn-primary btn-lg">
+                    <i data-lucide="home" class="w-4 h-4"></i>
+                    Return to Home
+                </a>
+                <a href="#contact" class="btn btn-outline btn-lg">
+                    <i data-lucide="mail" class="w-4 h-4"></i>
+                    Contact Support
+                </a>
+            </div>
+
+            <!-- Help Text -->
+            <div class="mt-12 pt-8 border-t border-border">
+                <p class="text-muted-foreground text-sm mb-6">
+                    Need additional help? Check out our resources:
+                </p>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    <a href="/" class="p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-all">
+                        <i data-lucide="home" class="w-5 h-5 text-primary mx-auto mb-2"></i>
+                        <span class="text-sm font-medium">Homepage</span>
+                    </a>
+                    <a href="#services" class="p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-all">
+                        <i data-lucide="briefcase" class="w-5 h-5 text-primary mx-auto mb-2"></i>
+                        <span class="text-sm font-medium">Services</span>
+                    </a>
+                    <a href="mailto:support@verixsoft.com" class="p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-all">
+                        <i data-lucide="mail" class="w-5 h-5 text-primary mx-auto mb-2"></i>
+                        <span class="text-sm font-medium">Email Support</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

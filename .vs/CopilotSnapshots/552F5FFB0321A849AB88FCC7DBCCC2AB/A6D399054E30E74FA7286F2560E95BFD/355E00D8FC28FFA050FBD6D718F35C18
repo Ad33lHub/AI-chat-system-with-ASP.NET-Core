@@ -1,0 +1,342 @@
+﻿@model VerixSoftMvc.Models.ViewModels.HomeViewModel
+
+@{
+    ViewData["Title"] = "Professional Web Development Services";
+}
+
+<div class="overflow-hidden">
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <!-- Background Gradient Blobs -->
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-primary opacity-20 rounded-full blur-3xl animate-float"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 bg-accent opacity-20 rounded-full blur-3xl animate-float" style="animation-delay: 1s;"></div>
+            <div class="absolute top-1/2 left-1/3 w-80 h-80 bg-success opacity-10 rounded-full blur-3xl animate-float" style="animation-delay: 2s;"></div>
+        </div>
+
+        <div class="container relative z-10">
+            <div class="max-w-4xl mx-auto">
+                <!-- Badge -->
+                <div class="hero-badge animate-fade-in-up">
+                    <i data-lucide="zap" class="w-4 h-4 mr-2"></i>
+                    Trusted Software Development Partner
+                </div>
+                
+                <!-- Main Title -->
+                <h1 class="hero-title gradient-text animate-fade-in-up" style="animation-delay: 0.2s;">
+                    Professional Web Development Services
+                </h1>
+                
+                <!-- Subtitle -->
+                <p class="hero-subtitle text-muted-foreground animate-fade-in-up" style="animation-delay: 0.4s;">
+                    VeriXSoft delivers innovative software solutions that drive business growth. 
+                    From web and mobile apps to AI-powered systems, we bring your ideas to life with cutting-edge technology and expert craftsmanship.
+                </p>
+                
+                <!-- CTA Buttons -->
+                <div class="hero-cta animate-fade-in-up" style="animation-delay: 0.6s;">
+                    <a href="#contact" class="btn btn-primary btn-lg">
+                        Get Started Today
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                    <a href="#services" class="btn btn-outline btn-lg">
+                        View Our Services
+                        <i data-lucide="chevron-down" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="border-y border-border/50 bg-secondary/30">
+        <div class="container">
+            <div class="stats-grid">
+                @foreach (var stat in Model.Stats)
+                {
+                    <div class="stat-item">
+                        <div class="stat-number">@stat.Number</div>
+                        <div class="stat-label">@stat.Label</div>
+                    </div>
+                }
+                @if (Model.Stats.Count == 0)
+                {
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Delivered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Expert Developers</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Our Services</h2>
+            <p class="text-muted-foreground max-w-2xl mx-auto text-lg leading-relaxed">
+                Comprehensive software solutions tailored to your business needs. 
+                We combine technical excellence with strategic thinking to deliver results.
+            </p>
+        </div>
+
+        <div class="card-grid">
+            @foreach (var service in Model.Services)
+            {
+                <div class="card animate-fade-in-up">
+                    <div class="card-icon">
+                        <i data-lucide="@service.IconName.ToLower()" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="card-title">@service.Title</h3>
+                    <p class="card-desc">@service.Description</p>
+                </div>
+            }
+            @if (Model.Services.Count == 0)
+            {
+                <div class="card">
+                    <div class="card-icon"><i data-lucide="globe" class="w-6 h-6"></i></div>
+                    <h3 class="card-title">Web Development</h3>
+                    <p class="card-desc">Modern, responsive websites built with latest technologies and best practices.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i data-lucide="smartphone" class="w-6 h-6"></i></div>
+                    <h3 class="card-title">Mobile Apps</h3>
+                    <p class="card-desc">Native and cross-platform mobile applications for iOS and Android.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i data-lucide="cloud" class="w-6 h-6"></i></div>
+                    <h3 class="card-title">Cloud Solutions</h3>
+                    <p class="card-desc">Scalable cloud infrastructure and DevOps solutions for your applications.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i data-lucide="brain" class="w-6 h-6"></i></div>
+                    <h3 class="card-title">AI Integration</h3>
+                    <p class="card-desc">Machine learning and AI-powered features for intelligent automation.</p>
+                </div>
+            }
+        </div>
+        
+        <div class="text-center mt-12">
+            <a href="#services" class="btn btn-outline">
+                View All Services
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="bg-muted/40 relative">
+        <div class="container text-center relative z-10">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Our Tech Stack</h2>
+            <p class="text-muted-foreground max-w-2xl mx-auto text-lg mb-12 leading-relaxed">
+                We work with cutting-edge technologies and modern frameworks to deliver robust, 
+                scalable, and maintainable solutions.
+            </p>
+
+            @{
+                var categories = Model.TechStacks.Select(t => t.Category).Distinct().ToList();
+            }
+
+            <div class="space-y-12">
+                @foreach (var category in categories)
+                {
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-semibold mb-8 text-primary">@category</h3>
+                        <div class="flex flex-wrap justify-center gap-4 max-w-6xl mx-auto">
+                            @foreach (var tech in Model.TechStacks.Where(t => t.Category == category))
+                            {
+                                <div class="tech-item" title="@tech.Name">
+                                    <img src="@tech.LogoUrl" alt="@tech.Name" loading="lazy" />
+                                    <span>@tech.Name</span>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="about" class="container">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <!-- Left Content -->
+            <div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 gradient-text">Why Choose VeriXSoft?</h2>
+                <p class="text-muted-foreground mb-8 text-lg leading-relaxed">
+                    We combine technical excellence with business acumen to deliver solutions that drive real results. 
+                    Our team of experienced developers is committed to your success.
+                </p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                    @foreach (var benefit in Model.Benefits)
+                    {
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-success flex-shrink-0 mt-0.5"></i>
+                            <span class="text-sm font-medium text-foreground">@benefit.Text</span>
+                        </div>
+                    }
+                    @if (Model.Benefits.Count == 0)
+                    {
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-success flex-shrink-0 mt-0.5"></i>
+                            <span class="text-sm font-medium">Expert Team</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-success flex-shrink-0 mt-0.5"></i>
+                            <span class="text-sm font-medium">Timely Delivery</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-success flex-shrink-0 mt-0.5"></i>
+                            <span class="text-sm font-medium">24/7 Support</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-success flex-shrink-0 mt-0.5"></i>
+                            <span class="text-sm font-medium">Flexible Solutions</span>
+                        </div>
+                    }
+                </div>
+                
+                <a href="#contact" class="btn btn-primary">
+                    Get In Touch
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+            
+            <!-- Right Features Grid -->
+            <div class="grid grid-cols-2 gap-4">
+                <div class="mt-8">
+                    <div class="card">
+                        <div class="card-icon"><i data-lucide="shield"></i></div>
+                        <h3 class="card-title text-base">Secure</h3>
+                        <p class="card-desc text-sm">Enterprise-grade security in every solution</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-icon"><i data-lucide="trending-up"></i></div>
+                        <h3 class="card-title text-base">Scalable</h3>
+                        <p class="card-desc text-sm">Built to grow with your business</p>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <div class="card">
+                        <div class="card-icon"><i data-lucide="zap"></i></div>
+                        <h3 class="card-title text-base">Fast</h3>
+                        <p class="card-desc text-sm">Optimized for peak performance</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-icon"><i data-lucide="users"></i></div>
+                        <h3 class="card-title text-base">Expert Team</h3>
+                        <p class="card-desc text-sm">10+ experienced developers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-secondary/50 relative">
+        <div class="container">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">What Our Clients Say</h2>
+                <p class="text-muted-foreground max-w-2xl mx-auto text-lg leading-relaxed">
+                    Don't just take our word for it. See what our satisfied clients have to say about their experience.
+                </p>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <div class="mb-4 flex items-center gap-1">
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                    </div>
+                    <p class="card-desc italic mb-4">"VeriXSoft delivered our project on time and exceeded expectations. Highly professional team!"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold">JD</div>
+                        <div>
+                            <p class="font-semibold text-sm">John Davis</p>
+                            <p class="text-xs text-muted-foreground">CEO, TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="mb-4 flex items-center gap-1">
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                    </div>
+                    <p class="card-desc italic mb-4">"Outstanding support and communication throughout the project. True partners, not just vendors."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-accent text-white flex items-center justify-center font-bold">SM</div>
+                        <div>
+                            <p class="font-semibold text-sm">Sarah Martinez</p>
+                            <p class="text-xs text-muted-foreground">Founder, StartupHub</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="mb-4 flex items-center gap-1">
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-warning fill-warning"></i>
+                    </div>
+                    <p class="card-desc italic mb-4">"The quality of code and attention to detail was impressive. Recommend VeriXSoft to anyone!"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-success text-white flex items-center justify-center font-bold">MW</div>
+                        <div>
+                            <p class="font-semibold text-sm">Michael Wang</p>
+                            <p class="text-xs text-muted-foreground">CTO, InnovateTech</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="bg-primary text-primary-foreground py-24 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle,white_2px,transparent_2px)] bg-[size:30px_30px]"></div>
+        
+        <div class="container relative z-10 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">Ready to Start Your Project?</h2>
+            <p class="text-lg md:text-xl mb-10 max-w-2xl mx-auto opacity-95 leading-relaxed">
+                Let's discuss how we can help you achieve your business goals with innovative software solutions tailored to your needs.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="mailto:info@verixsoft.com" class="btn btn-secondary btn-lg shadow-xl font-bold hover:scale-105 transition-transform">
+                    <i data-lucide="mail" class="w-4 h-4"></i>
+                    Contact Us Today
+                </a>
+                <a href="#services" class="btn btn-outline btn-lg border-white text-white hover:bg-white hover:text-primary backdrop-blur-sm font-semibold">
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    Explore Services
+                </a>
+            </div>
+        </div>
+    </section>
+</div>

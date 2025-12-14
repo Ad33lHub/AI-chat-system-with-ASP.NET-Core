@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - VerixSoft</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <!-- Lucide Icons script or similar if needed, but we might use FontAwesome or SVG strings -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-content">
+            <a class="nav-logo" asp-area="" asp-controller="Home" asp-action="Index">
+                <i data-lucide="zap" class="text-primary"></i>
+                VerixSoft
+            </a>
+            <nav class="nav-links">
+                <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <a href="#contact" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-bold mb-4 flex items-center gap-2">
+                        <i data-lucide="zap"></i> VerixSoft
+                    </h3>
+                    <p class="text-sm text-muted-foreground">
+                        Building the future with code. Specialized in web, mobile, and AI solutions.
+                    </p>
+                </div>
+                <!-- Add footer links here -->
+            </div>
+            <div class="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
+                &copy; 2025 VerixSoft. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
