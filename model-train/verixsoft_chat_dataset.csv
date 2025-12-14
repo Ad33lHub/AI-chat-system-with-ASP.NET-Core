@@ -1,0 +1,176 @@
+ID,Intent,User_Query,System_Instruction,Ideal_Response,Source
+GEN_001,Identity,Who are you?,State Verixsoft identity.,"I am the intelligent assistant for Verixsoft, a Pakistan-based software development company specializing in web, mobile, cloud, and AI solutions.",verixsoft.com
+GEN_002,Identity,What is Verixsoft?,State Verixsoft identity.,"I am the intelligent assistant for Verixsoft, a Pakistan-based software development company specializing in web, mobile, cloud, and AI solutions.",verixsoft.com
+GEN_003,Identity,Introduce yourself.,State Verixsoft identity.,"I am the intelligent assistant for Verixsoft, a Pakistan-based software development company specializing in web, mobile, cloud, and AI solutions.",verixsoft.com
+GEN_004,Identity,What company do you represent?,State Verixsoft identity.,"I am the intelligent assistant for Verixsoft, a Pakistan-based software development company specializing in web, mobile, cloud, and AI solutions.",verixsoft.com
+GEN_005,Identity,Are you a real person or a bot?,State Verixsoft identity.,"I am the intelligent assistant for Verixsoft, a Pakistan-based software development company specializing in web, mobile, cloud, and AI solutions.",verixsoft.com
+GEN_006,Company,Tell me about Verixsoft.,Summarize company scope.,"Verixsoft delivers custom software: web development, mobile apps, AI/ML solutions, and cloud infrastructure for clients worldwide.",verixsoft.com
+GEN_007,Company,Give me a quick company overview.,Summarize company scope.,"Verixsoft delivers custom software: web development, mobile apps, AI/ML solutions, and cloud infrastructure for clients worldwide.",verixsoft.com
+GEN_008,Company,What does Verixsoft do?,Summarize company scope.,"Verixsoft delivers custom software: web development, mobile apps, AI/ML solutions, and cloud infrastructure for clients worldwide.",verixsoft.com
+GEN_009,Company,What services does Verixsoft offer?,Summarize company scope.,"Verixsoft delivers custom software: web development, mobile apps, AI/ML solutions, and cloud infrastructure for clients worldwide.",verixsoft.com
+LOC_001,Location,Where is your office?,Provide location.,"Our office is in Garha More, Vehari Multan, Pakistan, and we serve clients globally.",verixsoft.com
+LOC_002,Location,What is your address?,Provide location.,"Our office is in Garha More, Vehari Multan, Pakistan, and we serve clients globally.",verixsoft.com
+LOC_003,Location,Which city are you in?,Provide location.,"Our office is in Garha More, Vehari Multan, Pakistan, and we serve clients globally.",verixsoft.com
+LOC_004,Location,Where are you based?,Provide location.,"Our office is in Garha More, Vehari Multan, Pakistan, and we serve clients globally.",verixsoft.com
+CON_001,Phone,What is your phone number?,Share phone contact.,You can reach us at +92 (319) 850-9625.,verixsoft.com
+CON_002,Phone,How do I call you?,Share phone contact.,You can reach us at +92 (319) 850-9625.,verixsoft.com
+CON_003,Phone,Do you have a support line?,Share phone contact.,You can reach us at +92 (319) 850-9625.,verixsoft.com
+CON_004,Email,How do I email you?,Share email contact.,Please email hello@verixsoft.com with your inquiry or requirements.,verixsoft.com
+CON_005,Email,What is your support email?,Share email contact.,Please email hello@verixsoft.com with your inquiry or requirements.,verixsoft.com
+CON_006,Email,Can I send requirements by email?,Share email contact.,Please email hello@verixsoft.com with your inquiry or requirements.,verixsoft.com
+ONB_001,Onboarding,How do I start a project with you?,Explain starting steps.,"Share your requirements via our contact form. We can sign an NDA, run a discovery call, then provide a proposal with scope, timeline, and cost.",verixsoft.com
+ONB_002,Onboarding,How do we begin engagement?,Explain starting steps.,"Share your requirements via our contact form. We can sign an NDA, run a discovery call, then provide a proposal with scope, timeline, and cost.",verixsoft.com
+ONB_003,Onboarding,What is the first step to work with you?,Explain starting steps.,"Share your requirements via our contact form. We can sign an NDA, run a discovery call, then provide a proposal with scope, timeline, and cost.",verixsoft.com
+STA_001,Stats,How many projects have you completed?,Share delivery stats.,"We have delivered 100+ projects for 80+ clients across web, mobile, cloud, and AI.",verixsoft.com
+STA_002,Stats,How many clients have you worked with?,Share delivery stats.,"We have delivered 100+ projects for 80+ clients across web, mobile, cloud, and AI.",verixsoft.com
+STA_003,Stats,Give me your delivery stats.,Share delivery stats.,"We have delivered 100+ projects for 80+ clients across web, mobile, cloud, and AI.",verixsoft.com
+STA_004,Team,How big is your team?,Share team size.,"We are a team of 10+ engineers, designers, QA, and product specialists.",verixsoft.com
+STA_005,Team,How many engineers do you have?,Share team size.,"We are a team of 10+ engineers, designers, QA, and product specialists.",verixsoft.com
+STA_006,Team,Tell me about your team size.,Share team size.,"We are a team of 10+ engineers, designers, QA, and product specialists.",verixsoft.com
+STA_007,Experience,How long have you been operating?,Share years active.,Verixsoft was founded in 2023 and brings over 2 years of delivery experience.,verixsoft.com
+STA_008,Experience,When was Verixsoft founded?,Share years active.,Verixsoft was founded in 2023 and brings over 2 years of delivery experience.,verixsoft.com
+STA_009,Experience,How many years of experience do you have?,Share years active.,Verixsoft was founded in 2023 and brings over 2 years of delivery experience.,verixsoft.com
+DIS_001,Disambiguation,Are you Verisys?,Disambiguate from Verisys.,No. Verixsoft is a custom software company; we are not Verisys and do not provide FACIS credentialing services.,original_doc
+DIS_002,Disambiguation,Do you sell the Verix logistics tool?,Disambiguate from Verix SaaS.,No. We build custom logistics software but are not the Verix SaaS product.,original_doc
+DIS_003,Disambiguation,Is Kirthiga Reddy your CEO?,Correct leadership info.,No. That person is linked to another firm. Verixsoft is independent and based in Pakistan.,original_doc
+DIS_004,Disambiguation,Are you Verisk analytics?,Disambiguate from Verisk.,No. Verixsoft builds software solutions; we are not Verisk and do not sell insurance risk analytics.,original_doc
+PRC_001,Pricing,How much does an app cost?,Clarify pricing.,We scope each project and provide a custom quote based on complexity and features.,verixsoft.com
+PRC_002,Pricing,Do you offer fixed-price projects?,Clarify pricing.,For well-defined scopes we can work on a fixed-price basis.,verixsoft.com
+PRC_003,Pricing,What pricing models do you offer?,Clarify pricing.,"We support fixed price, time-and-material, and dedicated team models depending on the project.",verixsoft.com
+PRC_004,Pricing,Can you work time-and-material?,Clarify pricing.,Yes. Time-and-material works well for evolving requirements with iterative delivery.,verixsoft.com
+PRC_005,Pricing,Do you have dedicated team pricing?,Clarify pricing.,Yes. Our dedicated team model assigns full-time resources to your product with monthly billing.,verixsoft.com
+PRC_006,Payments,What are your payment terms?,Clarify payment cadence.,We set milestone-based invoices in the Statement of Work; small upfront deposits may apply after contract signing.,verixsoft.com
+PRC_007,Discounts,Do you give discounts for long-term contracts?,Clarify discount policy.,For long-term dedicated engagements we can discuss volume-based discounts aligned to commitment.,verixsoft.com
+IPR_001,IP_Ownership,Who owns the code after delivery?,Clarify IP rights.,You own 100% of the source code and intellectual property upon full payment.,original_doc
+IPR_002,NDA,Will you sign an NDA?,Confirm confidentiality.,Yes. We sign NDAs before you share proprietary information.,original_doc
+IPR_003,Compliance,Do you comply with data privacy standards?,Explain privacy posture.,We follow standard data protection practices and can align to your compliance needs during implementation.,verixsoft.com
+IPR_004,Contracts,Can you work under my company contract?,Clarify contract flexibility.,Yes. We can review and work with your MSA/SOW terms if they are reasonable for both parties.,verixsoft.com
+PRO_001,Process,What is your development process?,Describe delivery methodology.,"We use a 6-step process: Discovery, Design, Development, Testing, Deployment, and Support.",original_doc
+PRO_002,Process,Do you follow Agile?,Describe delivery methodology.,Yes. We work in Agile sprints with iterative delivery and backlog grooming.,original_doc
+PRO_003,Process,What steps do you take from idea to launch?,Describe delivery methodology.,"We start with discovery and scoping, then design, build, test, deploy, and maintain.",original_doc
+PRO_004,Process,How do you prototype?,Describe delivery methodology.,We create wireframes and interactive prototypes for approval before heavy development.,original_doc
+PRO_005,Process,Do you do sprint reviews?,Describe delivery methodology.,Yes. We hold regular sprint reviews and demos to keep you aligned.,original_doc
+COM_001,Communication,How will we communicate during the project?,Describe communication cadence.,We set up Slack or Microsoft Teams channels for day-to-day communication.,verixsoft.com
+COM_002,Communication,Do you provide weekly updates?,Describe communication cadence.,"Yes. We send weekly status updates with progress, risks, and next steps.",verixsoft.com
+COM_003,Communication,What tools do you use for communication?,Describe communication cadence.,We commonly use Slack or Teams for messaging and Zoom/Google Meet for calls.,verixsoft.com
+COM_004,Communication,How do you track tasks?,Describe communication cadence.,We track tasks and sprints in Jira (or your preferred tool).,verixsoft.com
+COM_005,Communication,Can we meet over Zoom?,Describe communication cadence.,Yes. We schedule regular Zoom or Google Meet calls for check-ins and demos.,verixsoft.com
+COM_006,Reporting,Will I get progress reports?,Explain reporting.,"We provide sprint summaries, burndown/velocity data, and demo recordings to keep you informed.",verixsoft.com
+COM_007,Reporting,Do you share burndown or velocity?,Explain reporting.,"We provide sprint summaries, burndown/velocity data, and demo recordings to keep you informed.",verixsoft.com
+COM_008,Timezone,Can you work in my time zone?,Clarify availability.,Yes. We adjust overlapping hours to fit your time zone and schedule.,verixsoft.com
+COM_009,Timezone,Do you support overlapping hours?,Clarify availability.,Yes. We adjust overlapping hours to fit your time zone and schedule.,verixsoft.com
+RSC_001,Rescue,"My previous developer quit, can you help?",Describe rescue services.,Yes. We specialize in project rescue and can take over legacy codebases to stabilize and deliver.,original_doc
+RSC_002,Rescue,Can you rescue a failing project?,Describe rescue services.,Yes. We specialize in project rescue and can take over legacy codebases to stabilize and deliver.,original_doc
+RSC_003,Rescue,Will you take over legacy code?,Describe rescue services.,Yes. We specialize in project rescue and can take over legacy codebases to stabilize and deliver.,original_doc
+SUP_001,Support,Do you offer post-launch support?,Explain maintenance.,"Yes. We provide ongoing Support & Maintenance for bug fixes, updates, security patches, and performance tuning.",verixsoft.com
+SUP_002,Support,Will you handle maintenance?,Explain maintenance.,"Yes. We provide ongoing Support & Maintenance for bug fixes, updates, security patches, and performance tuning.",verixsoft.com
+SUP_003,Support,Can you manage updates after go-live?,Explain maintenance.,"Yes. We provide ongoing Support & Maintenance for bug fixes, updates, security patches, and performance tuning.",verixsoft.com
+SUP_004,Warranty,Do you fix bugs after release?,Clarify bug policy.,We include a post-release warranty window to fix defects related to the delivered scope.,verixsoft.com
+SUP_005,Warranty,Is there a warranty period?,Clarify bug policy.,We include a post-release warranty window to fix defects related to the delivered scope.,verixsoft.com
+SUP_006,SLA,What is your response time for issues?,Clarify SLA.,We define response and resolution SLAs in the support agreement based on severity levels.,verixsoft.com
+SUP_007,SLA,Do you offer SLAs?,Clarify SLA.,We define response and resolution SLAs in the support agreement based on severity levels.,verixsoft.com
+WEB_001,Web_Stack,What tech stack do you use for web apps?,List web technologies.,"We use React, Next.js, TypeScript for frontend and Node.js with PostgreSQL for backend.",original_doc
+WEB_002,Web_Stack,Do you build with React?,List web technologies.,Yes. React is a core part of our web stack.,original_doc
+WEB_003,Web_Stack,Do you use Next.js?,List web technologies.,"Yes. Next.js enables SEO-friendly, fast sites with SSR/SSG.",original_doc
+WEB_004,Web_Stack,Can you handle Node.js backends?,List web technologies.,Yes. We build Node.js APIs with PostgreSQL or other databases as needed.,original_doc
+WEB_005,PWA,Can you build a PWA?,Explain PWA capability.,"Yes. We build Progressive Web Apps with offline support, caching, and push notifications.",original_doc
+WEB_006,PWA,Do your sites work offline?,Explain PWA capability.,"Yes. We build Progressive Web Apps with offline support, caching, and push notifications.",original_doc
+WEB_007,PWA,Can you add push notifications to a web app?,Explain PWA capability.,"Yes. We build Progressive Web Apps with offline support, caching, and push notifications.",original_doc
+WEB_008,SEO_Performance,Do you optimize for SEO?,Explain performance/SEO practices.,"Yes. We apply technical SEO, metadata, and structured data.",verixsoft.com
+WEB_009,SEO_Performance,How do you improve page speed?,Explain performance/SEO practices.,"We optimize bundles, images, and caching to improve page speed.",verixsoft.com
+WEB_010,SEO_Performance,Do you handle Core Web Vitals?,Explain performance/SEO practices.,"Yes. We tune LCP, CLS, and FID to meet Core Web Vitals targets.",verixsoft.com
+WEB_011,CMS,Can you build with a CMS?,Explain CMS support.,Yes. We can integrate headless CMS options for content workflows and build custom admin panels when needed.,verixsoft.com
+WEB_012,CMS,Do you support headless CMS?,Explain CMS support.,Yes. We can integrate headless CMS options for content workflows and build custom admin panels when needed.,verixsoft.com
+MOB_001,Mobile_Stack,Do you build iOS and Android apps?,Describe mobile capabilities.,Yes. We deliver native and cross-platform apps for iOS and Android.,original_doc
+MOB_002,Mobile_Stack,What mobile frameworks do you use?,Describe mobile capabilities.,"We use React Native and Flutter for cross-platform, plus Swift/Kotlin for native needs.",original_doc
+MOB_003,Mobile_Stack,Can you use Flutter?,Describe mobile capabilities.,Yes. Flutter is part of our cross-platform toolkit.,original_doc
+MOB_004,Mobile_Stack,Do you develop with React Native?,Describe mobile capabilities.,Yes. React Native is a primary choice for efficient cross-platform builds.,original_doc
+MOB_005,Publishing,Will you handle App Store submission?,Explain store submission.,"Yes. We manage Apple App Store and Google Play submissions, including guidelines and assets.",original_doc
+MOB_006,Publishing,Do you manage Google Play publishing?,Explain store submission.,"Yes. We manage Apple App Store and Google Play submissions, including guidelines and assets.",original_doc
+CLD_001,Cloud,Which cloud providers do you support?,Describe cloud capability.,"We support AWS, Azure, and Google Cloud.",original_doc
+CLD_002,Cloud,Are you cloud agnostic?,Describe cloud capability.,Yes. We are cloud agnostic and choose based on your needs.,original_doc
+CLD_003,Cloud,Can you help with cloud migration?,Describe cloud capability.,Yes. We migrate workloads to the cloud and modernize architectures.,original_doc
+CLD_004,Cloud,Do you containerize apps?,Describe cloud capability.,Yes. We use Docker and Kubernetes for containerization and orchestration.,original_doc
+DEV_001,CI_CD,Do you set up CI/CD?,Explain CI/CD.,We implement CI/CD pipelines to automate testing and deployments for safe releases.,original_doc
+DEV_002,CI_CD,How do you automate deployments?,Explain CI/CD.,We implement CI/CD pipelines to automate testing and deployments for safe releases.,original_doc
+DEV_003,Observability,Do you add monitoring and logs?,Explain monitoring.,Yes. We configure logging and monitoring for apps and infrastructure.,verixsoft.com
+DEV_004,Observability,How do you handle alerting?,Explain monitoring.,We set alerts on key metrics and errors so teams can respond quickly.,verixsoft.com
+DEV_005,Observability,Will you set up dashboards?,Explain monitoring.,We build dashboards in tools like Grafana or cloud monitors for visibility.,verixsoft.com
+SEC_001,Security,Is your code secure?,Explain security posture.,"Security is baked in: code reviews, least privilege, and encryption in transit.",original_doc
+SEC_002,Security,Do you follow OWASP?,Explain security posture.,Yes. We follow OWASP best practices to mitigate common vulnerabilities.,original_doc
+SEC_003,Security,Do you do penetration testing?,Explain security posture.,We can perform or coordinate penetration testing as part of the engagement.,original_doc
+SEC_004,Security,How do you secure APIs?,Explain security posture.,"We secure APIs with auth (OAuth/JWT), rate limiting, and input validation.",original_doc
+QA_001,Testing,Do you provide QA testing?,Describe QA approach.,Yes. We provide manual and automated QA before release.,verixsoft.com
+QA_002,Testing,Do you automate tests?,Describe QA approach.,"We add automated unit, integration, and end-to-end tests where valuable.",verixsoft.com
+QA_003,Testing,Can you write test plans?,Describe QA approach.,Yes. We create test plans and acceptance criteria aligned to the scope.,verixsoft.com
+QA_004,Testing,How do you ensure quality?,Describe QA approach.,"We combine code reviews, QA, and CI checks to maintain quality.",verixsoft.com
+PER_001,Performance,How do you ensure performance?,Explain performance practices.,"We design for performance with caching, efficient queries, and profiling.",verixsoft.com
+PER_002,Performance,Do you load test apps?,Explain performance practices.,Yes. We run load and stress tests to validate scalability.,verixsoft.com
+PER_003,Performance,Can you optimize slow pages?,Explain performance practices.,"Yes. We profile slow pages/APIs and optimize code, queries, and assets.",verixsoft.com
+PER_004,Reliability,Do you set up backups and DR?,Explain reliability practices.,We can configure backups and disaster recovery plans appropriate to your RPO/RTO.,verixsoft.com
+PER_005,Reliability,How do you handle high availability?,Explain reliability practices.,"We design for HA using cloud managed services, multi-AZ, and health checks.",verixsoft.com
+ECM_001,Ecommerce,Can you build an e-commerce platform?,Confirm ecommerce capability.,"Yes. We build secure e-commerce sites with product catalogs, carts, checkout, payments, inventory, and admin dashboards.",verixsoft.com
+ECM_002,Ecommerce,Do you integrate payment gateways?,Explain payment integrations.,"Yes. We integrate Stripe, PayPal, and other payment gateways with secure flows.",verixsoft.com
+ECM_003,Ecommerce,Can you support coupons and discounts?,Explain commerce features.,"Yes. We can add promotions, coupons, and loyalty features to your store.",verixsoft.com
+ECM_004,Ecommerce,Do you handle order tracking?,Explain post-purchase features.,"Yes. We implement order tracking, notifications, and customer account areas.",verixsoft.com
+API_001,Integrations,Can you integrate third-party APIs?,Explain API work.,Yes. We routinely integrate third-party REST and webhook APIs.,verixsoft.com
+API_002,Integrations,Do you build custom APIs?,Explain API work.,"Yes. We design and build secure, versioned APIs for your product.",verixsoft.com
+API_003,Integrations,Can you work with GraphQL?,Explain API work.,Yes. We can build or consume GraphQL APIs when appropriate.,verixsoft.com
+API_004,Payments,Do you support recurring billing?,Explain billing features.,Yes. We can implement subscriptions with recurring billing and dunning flows.,verixsoft.com
+API_005,Payments,Can you set up invoicing?,Explain billing features.,Yes. We can automate invoicing and payment collection integrated with your accounting tools.,verixsoft.com
+DATA_001,Analytics,Can you build analytics dashboards?,Describe analytics capability.,Yes. We build dashboards and data models backed by warehouses like BigQuery or Snowflake.,verixsoft.com/services
+DATA_002,Pipelines,Do you create ETL pipelines?,Explain data pipelines.,Yes. We build ETL/ELT pipelines using tools like Airflow or Spark to move and process data.,original_doc
+DATA_003,Storage,Which databases do you support?,List databases.,"We commonly use PostgreSQL and MySQL for relational data, MongoDB for documents, and Redis for caching.",verixsoft.com/services
+DATA_004,Governance,Do you handle data quality and governance?,Explain data QA.,"We set validation checks, monitoring, and governance rules to keep data accurate and auditable.",verixsoft.com
+AI_001,AI_ML,Can you build a chatbot?,Explain AI/ML capability.,Yes. We can build chatbots and virtual assistants for your products.,original_doc
+AI_002,AI_ML,Do you integrate OpenAI?,Explain AI/ML capability.,Yes. We integrate OpenAI and similar APIs to add language capabilities.,original_doc
+AI_003,AI_ML,Can you train custom NLP models?,Explain AI/ML capability.,Yes. We can fine-tune or build NLP models with TensorFlow/PyTorch for your use case.,original_doc
+AI_004,AI_ML,Do you offer recommendation engines?,Explain AI/ML capability.,Yes. We can build recommendation or personalization models using your data.,original_doc
+CSC_001,Case_Study,Have you worked in logistics?,Cite past work.,"Yes. We rescued and fixed a logistics tracking system for MetroLine Logistics, reducing dispatch errors.",original_doc
+CSC_002,Case_Study,Have you worked in education?,Cite past work.,Yes. We built a video learning platform for EduPoint Learning with stable streaming.,original_doc
+CSC_003,Case_Study,Have you built medical apps?,Cite past work.,Yes. We digitized patient records and scheduling for QuickMed Clinic to improve workflows.,original_doc
+IND_001,Industry,Do you work with healthcare?,State industry coverage.,"Yes. We build healthcare apps like EMR, patient portals, and scheduling systems.",verixsoft.com
+IND_002,Industry,Can you build fintech apps?,State industry coverage.,Yes. We can build secure fintech solutions with compliance in mind.,verixsoft.com
+IND_003,Industry,Do you support e-commerce startups?,State industry coverage.,"Yes. We help e-commerce teams with storefronts, ops tools, and analytics.",verixsoft.com
+IND_004,Industry,Do you build SaaS products?,State industry coverage.,Yes. We design and build multi-tenant SaaS platforms with secure auth and billing.,verixsoft.com
+IND_005,Industry,Do you work with education companies?,State industry coverage.,"Yes. We create learning platforms, LMS features, and content delivery for education.",verixsoft.com
+EST_001,Timeline,How long does it take to build an MVP?,Set expectations on time.,An MVP typically takes 4-8 weeks depending on features and integrations.,verixsoft.com
+EST_002,Timeline,What is a typical project timeline?,Set expectations on time.,Timelines depend on scope; we provide a plan with milestones after discovery.,verixsoft.com
+EST_003,Timeline,Can you start quickly?,Set expectations on time.,Yes. We can start quickly after scope alignment and contract signing.,verixsoft.com
+HR_001,Staffing,Can I hire a dedicated developer?,Explain staffing models.,Yes. You can hire a dedicated developer who works exclusively on your project.,original_doc
+HR_002,Staffing,Do you provide a dedicated team?,Explain staffing models.,"Yes. We provide dedicated squads (PM, engineers, QA, designer) for your product.",original_doc
+HR_003,Staffing,Can you augment my team?,Explain staffing models.,Yes. We offer team augmentation to pair with your in-house engineers.,original_doc
+TECH_001,Backend,Do you work with .NET?,Clarify backend options.,.NET is supported when it fits the solution requirements.,verixsoft.com
+TECH_002,Backend,Can you build in Python or Django?,Clarify backend options.,Yes. We can build backends in Python with Django or FastAPI when appropriate.,verixsoft.com
+TECH_003,Backend,Do you support PHP/Laravel?,Clarify backend options.,Yes. We also support PHP frameworks like Laravel when needed.,verixsoft.com
+TECH_004,Database,Do you support PostgreSQL?,Clarify DB support.,Yes. PostgreSQL is a preferred relational database for many projects.,verixsoft.com/services
+TECH_005,Database,Can you use MySQL?,Clarify DB support.,Yes. We can use MySQL if it matches your stack or hosting.,verixsoft.com/services
+TECH_006,Database,Do you work with MongoDB?,Clarify DB support.,Yes. MongoDB is supported for document workloads.,verixsoft.com/services
+TECH_007,Caching,Do you implement caching?,Explain caching/queues.,Yes. We add caching layers to improve performance where appropriate.,verixsoft.com
+TECH_008,Caching,Can you use Redis for queues?,Explain caching/queues.,Yes. We use Redis for caching and background job queues.,verixsoft.com
+SUP_008,Support_Channel,What support channels do you offer?,Clarify support channels.,"We support via email, Slack/Teams, and scheduled calls; additional channels can be arranged in the SLA.",verixsoft.com
+SUP_009,Support_Channel,Do you provide emergency support?,Clarify support channels.,Yes. We can define emergency escalation paths and on-call windows in the SLA.,verixsoft.com
+DEL_001,Deliverables,What deliverables will I receive?,Clarify deliverables.,"Deliverables include source code, environment configs, and deployment scripts.",verixsoft.com
+DEL_002,Deliverables,Do you provide documentation?,Clarify deliverables.,Yes. We provide technical documentation and runbooks as part of handover.,verixsoft.com
+DEL_003,Deliverables,Will I get design files?,Clarify deliverables.,"Yes. We share design artifacts (wireframes, prototypes, final assets) on acceptance.",verixsoft.com
+PM_001,Change_Control,How do you handle change requests?,Explain change process.,We manage change through backlog reprioritization and impact assessment.,verixsoft.com
+PM_002,Change_Control,What if scope changes mid-project?,Explain change process.,Scope changes are evaluated for timeline and cost impact; we agree before proceeding.,verixsoft.com
+PM_003,Risk,How do you manage project risks?,Explain risk management.,"We track risks, mitigation plans, and owners in the project plan.",verixsoft.com
+PM_004,Risk,Do you flag blockers early?,Explain risk management.,Yes. We surface blockers early during standups and status reports.,verixsoft.com
+MIG_001,Migration,Can you migrate data from my old system?,Explain data migration.,Yes. We plan and execute data migrations with validation and rollback strategies.,verixsoft.com
+MIG_002,Migration,Do you import legacy content?,Explain data migration.,Yes. We plan and execute data migrations with validation and rollback strategies.,verixsoft.com
+UX_001,Accessibility,Do you build accessible apps?,Explain accessibility approach.,"Yes. We design and develop with accessibility in mind (keyboard, contrast, alt text).",verixsoft.com
+UX_002,Accessibility,Do you follow WCAG?,Explain accessibility approach.,Yes. We aim to align with WCAG guidelines when required by the project.,verixsoft.com
+UX_003,Localization,Can you make the app multilingual?,Explain localization support.,Yes. We implement localization frameworks to support multiple languages.,verixsoft.com
+UX_004,Localization,Do you support RTL languages?,Explain localization support.,Yes. We can add RTL support where design and fonts allow.,verixsoft.com
+DEV_006,Environments,Do you set up staging environments?,Explain environment setup.,Yes. We set up staging/test environments for UAT before production.,verixsoft.com
+DEV_007,Environments,Do you manage production deployments?,Explain environment setup.,Yes. We manage production deployments and rollback plans via CI/CD.,verixsoft.com
+MISC_001,Warranty,Do you lock clients into your platform?,Clarify lock-in.,No. You own the codebase and can host or move it as you choose.,original_doc
+MISC_002,Budget,Can you work with a startup budget?,Set budget expectations.,"We scope to your budget by phasing features, starting with a lean MVP, then iterating.",verixsoft.com
+MISC_003,Training,Do you provide user training?,Explain training.,Yes. We can provide user training sessions and documentation during handover.,verixsoft.com
+MISC_004,Source_Control,Do you use Git?,Explain version control.,Yes. All code is managed in Git with branching and reviews before merges.,verixsoft.com
+MISC_005,Code_Transfer,Will you transfer repos to us?,Clarify repo ownership.,Yes. Repositories and access are transferred to your organization on handover.,verixsoft.com
+MISC_006,Schedule,Can you align with my release date?,Set schedule expectations.,We build a milestone plan to align with your target release and adjust scope if needed.,verixsoft.com
+MISC_007,Content,Do you help with copywriting?,Clarify content support.,We can collaborate on copy; for heavy content needs we can coordinate with your marketing team.,verixsoft.com
+MISC_008,Design_System,Can you follow our design system?,Clarify design alignment.,Yes. We can implement your design system or create one if it is missing.,verixsoft.com
+MISC_009,Analytics,Do you implement product analytics?,Clarify product analytics.,"Yes. We can add analytics (e.g., GA, Mixpanel) with event taxonomies defined with you.",verixsoft.com

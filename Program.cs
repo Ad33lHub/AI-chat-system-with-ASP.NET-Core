@@ -8,6 +8,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<VerixSoftMvc.Data.ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Add ChatService
+builder.Services.AddSingleton<VerixSoftMvc.Services.ChatService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -230,5 +230,5 @@ C:\Users\Adeel\Downloads\verixsoft-master\VerixSoftMvc\obj\Debug\net10.0\refint\
 C:\Users\Adeel\Downloads\verixsoft-master\VerixSoftMvc\obj\Debug\net10.0\VerixSoftMvc.pdb
 C:\Users\Adeel\Downloads\verixsoft-master\VerixSoftMvc\obj\Debug\net10.0\VerixSoftMvc.genruntimeconfig.cache
 C:\Users\Adeel\Downloads\verixsoft-master\VerixSoftMvc\obj\Debug\net10.0\ref\VerixSoftMvc.dll
-C:\Users\Adeel\Downloads\verixsoft-master\VerixSoftMvc\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
-C:\Users\Adeel\Downloads\verixsoft-master\VerixSoftMvc\obj\Debug\net10.0\compressed\26u22lki6v-{0}-lke2dtk7zq-lke2dtk7zq.gz
+C:\Users\Adeel\Downloads\verixsoft-master\VerixSoftMvc\obj\Debug\net10.0\VerixSoftMvc.sourcelink.json
+C:\Users\Adeel\Downloads\verixsoft-master\VerixSoftMvc\obj\Debug\net10.0\compressed\26u22lki6v-{0}-ie80bk9wx0-ie80bk9wx0.gz

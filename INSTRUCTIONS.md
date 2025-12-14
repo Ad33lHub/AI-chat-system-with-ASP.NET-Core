@@ -1,52 +1,84 @@
-# VerixSoft ASP.NET Core MVC Project Instructions
+# VerixSoft AI-Integrated Project Migration Instructions
 
-## 1. Prerequisites
-Before running this project on a new device, ensure you have the following installed:
-- **.NET 8 SDK**: [Download Here](https://dotnet.microsoft.com/download/dotnet/8.0)
-- **SQL Server Express** or **LocalDB** (Usually installed with Visual Studio).
+Here is the complete guide to migrating, setting up, and running this project (ASP.NET Core + Python AI Chatbot) on a new device.
 
-## 2. Project Setup
-1.  **Copy the Project**:
-    Copy the entire `VerixSoftMvc` folder to your new computer.
+## 1. Prerequisites (Tools Needed)
+Before you begin, install the following on your new machine:
 
-2.  **Open in Terminal**:
-    Open Command Prompt, PowerShell, or Terminal and navigate to the project folder:
+1.  **.NET 8.0 SDK** (or later): [Download Here](https://dotnet.microsoft.com/download/dotnet/8.0)
+2.  **Python 3.10+**: [Download Here](https://www.python.org/downloads/)
+    *   *Important*: Check "Add Python to PATH" during installation.
+3.  **SQL Server** (LocalDB or Express):
+    *   Usually installed with Visual Studio via the "ASP.NET and web development" workload.
+    *   Or install [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads).
+
+---
+
+## 2. Python AI Environment Setup
+The chatbot requires a Python environment to run the Keras model.
+
+1.  **Navigate to the Model Directory**:
+    Open a terminal/command prompt and go to the `model-train` folder inside the project:
     ```powershell
-    cd path/to/VerixSoftMvc
+    cd path\to\VerixSoftMvc\model-train
     ```
 
-## 3. Database Setup
-You have two options to set up the database. **Choose only one**.
+2.  **Install Dependencies**:
+    Run the following command to install required libraries:
+    ```powershell
+    pip install flask tensorflow numpy scikit-learn pandas
+    ```
 
-### Option A: Automatic Setup (Recommended)
-This method automatically creates the database and seeds it with data using the code.
-Run this command in your terminal:
-```powershell
-dotnet ef database update
-```
-*Note: If you get an error saying `dotnet ef` is not found, run `dotnet tool install --global dotnet-ef` first.*
+3.  **Start the AI Server**:
+    Keep this terminal open and run:
+    ```powershell
+    python chat_server.py
+    ```
+    *   You should see: `Running on http://127.0.0.1:5000`
+    *   **Note**: This window must remain open for the chatbot to reply.
 
-### Option B: Manual SQL Import
-If you prefer to use SQL Server Management Studio (SSMS):
-1.  Locate the file `database.sql` in this folder.
-2.  Open SSMS and connect to your SQL Server instance.
-3.  Open `database.sql` and execute the script.
-4.  **Important**: Check `appsettings.json` and update the `ConnectionStrings` to match your SQL Server instance name if it is not `(localdb)\mssqllocaldb`.
+---
 
-## 4. Running the Application
-Once the database is ready, run the application:
-```powershell
-dotnet run
-```
-The terminal will show a URL (e.g., `http://localhost:5123`). Open this URL in your browser.
+## 3. Database Setup (SQL Server)
+Configure the database for the website content.
 
-## 5. Project Structure
-- **Controllers/**: Handles the logic (e.g., `HomeController.cs`).
-- **Models/**: Defines the data structure (e.g., `Service`, `TechStack`).
-- **Views/**: Contains the HTML pages (`Home/Index.cshtml`).
-- **wwwroot/**: Contains static files like CSS (`css/site.css`) and images.
-- **appsettings.json**: Contains database connection strings.
+1.  **Check Connection String**:
+    Open `appsettings.json` in the root `VerixSoftMvc` folder. Ensure the `DefaultConnection` matches your SQL Server instance. Default is:
+    ```json
+    "Server=(localdb)\\mssqllocaldb;Database=VerixSoftDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+    ```
 
-## Troubleshooting
-- **Database Connection Error**: Verify `appsettings.json` connection string matches your machine's SQL Server name.
-- **Styling Issues**: Ensure `wwwroot/css/site.css` is present.
+2.  **Apply Migrations**:
+    Open a **new** terminal window in the root `VerixSoftMvc` folder (not `model-train`) and run:
+    ```powershell
+    dotnet ef database update
+    ```
+    *   If `dotnet ef` is not found, run: `dotnet tool install --global dotnet-ef` first.
+
+---
+
+## 4. Running the Website
+With the Python server running in pending window and database set up:
+
+1.  **Run the Project**:
+    In the `VerixSoftMvc` root terminal:
+    ```powershell
+    dotnet run
+    ```
+
+2.  **Browse**:
+    Open the URL shown (e.g., `http://localhost:5038`) in your browser.
+
+---
+
+## 5. Troubleshooting Qualities
+
+### Chatbot says "I'm not sure I understand" constantly?
+- **Fix**: Restart the Python server. The server has a self-healing mechanism that rebuilds the AI encoder from the CSV file if the cached model is mismatched.
+- **Command**: Stop the python script (Ctrl+C) and run `python chat_server.py` again.
+
+### Database Errors?
+- **Fix**: Ensure your `appsettings.json` connection string is correct and that you have run `dotnet ef database update`.
+
+### Missing Styling/Images?
+- **Fix**: Ensure you copied the `wwwroot` folder completely.
